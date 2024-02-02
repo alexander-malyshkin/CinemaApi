@@ -1,4 +1,4 @@
-This is an ASP.NET Core 8 Web API solution representing a mock cinema application.
+This is an ASP.NET Core 8 Web API solution representing a fake cinema application.
 It is designed to manage the showtimes of the cinema, getting some data from an external API.
 
 The following features are implemented:
