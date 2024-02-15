@@ -14,7 +14,7 @@ These features are covered by unit tests.
 
 - **Create showtime**
     
-    Should create showtime and should grab the movie data from the external API.
+    Should create showtime and should grab the movie data from an external API.
     
 - **Reserve seats**
     - Reserving the seat response will contain a GUID of the reservation, also the number of seats, the auditorium used and the movie that will be played.
@@ -26,8 +26,6 @@ These features are covered by unit tests.
     - We will need the GUID of the reservation, it is only possible to do it while the seats are reserved.
     - It is not possible to buy the same seat two times.
     - Expired reservations (older than 10 minutes) cannot be confirmed.
-   
-The solution includes the proto of Provided API and a small piece of code that tries to connect with the GRPC API, but it does not work.
 
 ### Caching and resilience pipelines
 
